@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\1.탐색">
+      <UniqueIdentifier>{6d022a20-073b-48f2-9b7f-13d7996537ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.연결리스트">
+      <UniqueIdentifier>{cb935f30-58bc-47d1-a139-59725acd7f5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.연결리스트\ch3">
+      <UniqueIdentifier>{081fbabe-63e1-474f-8bdd-0103f016ba77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.연결리스트\ch4">
+      <UniqueIdentifier>{ae436b75-b553-40d9-aaf4-11cfb0a2be3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2.연결리스트\ch5">
+      <UniqueIdentifier>{9da534d7-77b1-4802-a141-28526c7dbfe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3.스택">
+      <UniqueIdentifier>{b42512be-46d5-4a30-b79c-9cf67ab71de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\2.연결리스트">
+      <UniqueIdentifier>{883deac6-686b-46c4-b78c-a5b8b1c25f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\2.연결리스트\ch3">
+      <UniqueIdentifier>{3c6445d3-1e56-46e9-8212-e75e424e20f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\2.연결리스트\ch4">
+      <UniqueIdentifier>{a09b8d74-ea80-4d93-8c91-f09471e894ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\2.연결리스트\ch5">
+      <UniqueIdentifier>{f63b1192-1a3d-4fb2-b893-6bec9a6f6273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\3.스택">
+      <UniqueIdentifier>{248e3876-a977-45e3-b49a-8814d5e857a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\큐">
+      <UniqueIdentifier>{8d6febff-448e-4f89-a370-06da4bf41cfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="이진탐색(재귀).cpp">
+      <Filter>소스 파일\1.탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="이진탐색.cpp">
+      <Filter>소스 파일\1.탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="하노이타워(재귀).cpp">
+      <Filter>소스 파일\1.탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\ArrayList\ArrayList%28내꺼%29.c">
+      <Filter>소스 파일\2.연결리스트\ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\ArrayListPointStructBase\ArrayList.c">
+      <Filter>소스 파일\2.연결리스트\ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\ArrayList\ListMain.c">
+      <Filter>소스 파일\2.연결리스트\ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\Prob03-2\NameCard.c">
+      <Filter>소스 파일\2.연결리스트\ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\Prob03-2\NameCardListMain.c">
+      <Filter>소스 파일\2.연결리스트\ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\ArrayListPointStructBase\Point.c">
+      <Filter>소스 파일\2.연결리스트\ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\ArrayListPointStructBase\PointListMain.c">
+      <Filter>소스 파일\2.연결리스트\ch3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch04\DLinkedList\DLinkedList.c">
+      <Filter>소스 파일\2.연결리스트\ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch04\DLinkedList\DLinkedListMain.c">
+      <Filter>소스 파일\2.연결리스트\ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch04\LinkedRead.c">
+      <Filter>소스 파일\2.연결리스트\ch4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch05\CircularLinkedList\CLinkedList.c">
+      <Filter>소스 파일\2.연결리스트\ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch05\CircularLinkedList\CLinkedListMain.c">
+      <Filter>소스 파일\2.연결리스트\ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch05\DublyLinkedList\DBLinkedList.c">
+      <Filter>소스 파일\2.연결리스트\ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\Data_Structure_Src\Ch05\DublyLinkedList\DBLinkedListMain.c">
+      <Filter>소스 파일\2.연결리스트\ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="이중연결리스트 실습(더미).cpp">
+      <Filter>소스 파일\2.연결리스트\ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="소스1.cpp">
+      <Filter>소스 파일\2.연결리스트\ch5</Filter>
+    </ClCompile>
+    <ClCompile Include="소스.cpp">
+      <Filter>소스 파일\2.연결리스트</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayBaseStack.cpp">
+      <Filter>소스 파일\3.스택</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayBaseStackMain.cpp">
+      <Filter>소스 파일\3.스택</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBaseStack.cpp">
+      <Filter>소스 파일\3.스택</Filter>
+    </ClCompile>
+    <ClCompile Include="중위에서 후위.cpp">
+      <Filter>소스 파일\3.스택</Filter>
+    </ClCompile>
+    <ClCompile Include="후위표기식 연산.cpp">
+      <Filter>소스 파일\3.스택</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\ArrayList\ArrayList%28내꺼%29.h">
+      <Filter>헤더 파일\2.연결리스트\ch3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\ArrayListPointStructBase\ArrayList.h">
+      <Filter>헤더 파일\2.연결리스트\ch3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\Prob03-2\NameCard.h">
+      <Filter>헤더 파일\2.연결리스트\ch3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\ArrayListPointStructBase\Point.h">
+      <Filter>헤더 파일\2.연결리스트\ch3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\Data_Structure_Src\Ch04\DLinkedList\DLinkedList.h">
+      <Filter>헤더 파일\2.연결리스트\ch4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\Data_Structure_Src\Ch05\CircularLinkedList\CLinkedList.h">
+      <Filter>헤더 파일\2.연결리스트\ch5</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\Data_Structure_Src\Ch05\DublyLinkedList\DBLinkedList.h">
+      <Filter>헤더 파일\2.연결리스트\ch5</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrayBaseStack.h">
+      <Filter>헤더 파일\3.스택</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBaseStack.h">
+      <Filter>헤더 파일\3.스택</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
