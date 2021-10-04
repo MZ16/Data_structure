@@ -132,6 +132,9 @@
     <ClCompile Include="CQueue(Array).cpp">
       <Filter>소스 파일\큐</Filter>
     </ClCompile>
+    <ClCompile Include="Queue(List).cpp">
+      <Filter>소스 파일\큐</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\ArrayList\ArrayList%28내꺼%29.h">
