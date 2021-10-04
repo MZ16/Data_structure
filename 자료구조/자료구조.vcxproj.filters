@@ -126,6 +126,9 @@
     <ClCompile Include="후위표기식 연산.cpp">
       <Filter>소스 파일\3.스택</Filter>
     </ClCompile>
+    <ClCompile Include="연동테스트.cpp">
+      <Filter>소스 파일\큐</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\ArrayList\ArrayList%28내꺼%29.h">
