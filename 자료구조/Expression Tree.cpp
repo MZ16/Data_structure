@@ -57,7 +57,6 @@ void InordefTraverse(BTreeNode* bt, VisitFuncPtr action) { //중위 순회 ∧
 void PreordefTraverse(BTreeNode* bt, VisitFuncPtr action) { // 전위 순회 ＜
 	if (bt == NULL) return;
 
-
 	action(bt->data);
 	PreordefTraverse(bt->left, action);
 	PreordefTraverse(bt->right, action);
@@ -104,8 +103,6 @@ void SPush(Stk* pstack, Data data) {
 	newNode->data = data;
 	newNode->prev = pstack->head;
 	pstack->head = newNode;
-
-
 }
 
 Data SPop(Stk* pstack) {

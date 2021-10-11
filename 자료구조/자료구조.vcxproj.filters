@@ -46,7 +46,10 @@
     <Filter Include="헤더 파일\3.스택">
       <UniqueIdentifier>{248e3876-a977-45e3-b49a-8814d5e857a0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\큐">
+    <Filter Include="소스 파일\5.트리">
+      <UniqueIdentifier>{c9b7c413-a6c6-4e25-b3d2-9d2b0e124e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4.큐">
       <UniqueIdentifier>{8d6febff-448e-4f89-a370-06da4bf41cfc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -127,13 +130,28 @@
       <Filter>소스 파일\3.스택</Filter>
     </ClCompile>
     <ClCompile Include="연동테스트.cpp">
-      <Filter>소스 파일\큐</Filter>
+      <Filter>소스 파일\4.큐</Filter>
     </ClCompile>
     <ClCompile Include="CQueue(Array).cpp">
-      <Filter>소스 파일\큐</Filter>
+      <Filter>소스 파일\4.큐</Filter>
     </ClCompile>
     <ClCompile Include="Queue(List).cpp">
-      <Filter>소스 파일\큐</Filter>
+      <Filter>소스 파일\4.큐</Filter>
+    </ClCompile>
+    <ClCompile Include="Deque.cpp">
+      <Filter>소스 파일\4.큐</Filter>
+    </ClCompile>
+    <ClCompile Include="소스2.cpp">
+      <Filter>소스 파일\4.큐</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree.cpp">
+      <Filter>소스 파일\5.트리</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree(순회).cpp">
+      <Filter>소스 파일\5.트리</Filter>
+    </ClCompile>
+    <ClCompile Include="Expression Tree.cpp">
+      <Filter>소스 파일\5.트리</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
