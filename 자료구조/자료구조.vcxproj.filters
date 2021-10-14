@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\4.큐">
       <UniqueIdentifier>{8d6febff-448e-4f89-a370-06da4bf41cfc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\6.우선순위큐">
+      <UniqueIdentifier>{e0b628ee-f221-4b57-b3c7-7c955b18c09b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="이진탐색(재귀).cpp">
@@ -152,6 +155,12 @@
     </ClCompile>
     <ClCompile Include="Expression Tree.cpp">
       <Filter>소스 파일\5.트리</Filter>
+    </ClCompile>
+    <ClCompile Include="tree연습.cpp">
+      <Filter>소스 파일\5.트리</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityQueue.cpp">
+      <Filter>소스 파일\6.우선순위큐</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

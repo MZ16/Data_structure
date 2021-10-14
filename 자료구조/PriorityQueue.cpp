@@ -4,7 +4,7 @@
 #define HEAP_LEN 100
 #define TRUE 1
 #define FALSE 0
- // 배열 idx가 작은경우 우선순위가 높음
+ // 최소힙
 typedef char HData;
 typedef int Priority;
 
