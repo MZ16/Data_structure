@@ -55,6 +55,12 @@
     <Filter Include="소스 파일\6.우선순위큐">
       <UniqueIdentifier>{e0b628ee-f221-4b57-b3c7-7c955b18c09b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\7.정렬">
+      <UniqueIdentifier>{85d33d67-c10c-41a0-a190-1e4a75ce3f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\8.이진탐색트리">
+      <UniqueIdentifier>{cfbbff50-eb41-4404-9df1-3773edc2d88e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="이진탐색(재귀).cpp">
@@ -161,6 +167,24 @@
     </ClCompile>
     <ClCompile Include="PriorityQueue.cpp">
       <Filter>소스 파일\6.우선순위큐</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.cpp">
+      <Filter>소스 파일\7.정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectSort.cpp">
+      <Filter>소스 파일\7.정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertSort.cpp">
+      <Filter>소스 파일\7.정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
+      <Filter>소스 파일\7.정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="merge연습.cpp">
+      <Filter>소스 파일\7.정렬</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTree.cpp">
+      <Filter>소스 파일\8.이진탐색트리</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
