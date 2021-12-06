@@ -153,7 +153,7 @@ BTreeNode* BSTRemove(BTreeNode** pRoot, BSTData target) {
 	}
 	// 두 번째 경우 - 하나의 자식 노드를 갖는 경우
 	else if (GetLeftSubTree(dNode) == NULL || GetRightSubTree(dNode) == NULL) {
-		BTreeNode* dcNode; //deltet node의 자식 노드
+		BTreeNode* dcNode; //delete node의 자식 노드
 		//삭제 대상의 자식 노드를 찾는다.
 		if (GetLeftSubTree(dNode) != NULL) dcNode = GetLeftSubTree(dNode);
 		else dcNode = GetRightSubTree(dNode);
