@@ -14,11 +14,11 @@ void init() {
 	ios_base::sync_with_stdio(0);
 	cin.tie(0);
 }
-/*±âµÕÀÌ 3°³ÀÏ¶§, 4°³¸é ¸Å°³º¯¼ö°¡ ´Ã¾î³², ÀÌµ¿È½¼ö ¿øÆÇ>=3 ÀÌ¸é (¿øÆÇ°³¼ö-3*7)+7=ÀÌµ¿È½¼ö */
-int Hanoi(int val, char first, char by, char to) { // ÃÖÃÊ ÀÎÀÚ Àü´ŞÀÚÃ¼°¡ 1Æ® (A -> C)
-	if (val == 1) { printf("¿øÆÇ1ÀÌ ±âµÕ%c¿¡¼­ ±âµÕ%c·Î ÀÌµ¿\n", first, to); return 0; }
+
+int Hanoi(int val, char first, char by, char to) { 
+	if (val == 1) { printf("ì›íŒ1ì„ ê¸°ë‘¥%cì—ì„œ %cë¡œ ì´ë™\n", first, to); return 0; }
 	Hanoi(val-1,first,to,by);
-	printf("¿øÆÇ%d°¡/ÀÌ ±âµÕ%c¿¡¼­ ±âµÕ%c·Î ÀÌµ¿\n",val,first,to);
+	printf("ì›íŒ%d ê¸°ë‘¥%cì—ì„œ %cë¡œ ì´ë™\n",val,first,to);
 	Hanoi(val - 1, by, first, to);
 } 
 

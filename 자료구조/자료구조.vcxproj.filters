@@ -186,6 +186,9 @@
     <ClCompile Include="BinarySearchTree.cpp">
       <Filter>소스 파일\8.이진탐색트리</Filter>
     </ClCompile>
+    <ClCompile Include="AVLTree.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Downloads\Data_Structure_Src\Ch03\ArrayList\ArrayList%28내꺼%29.h">
